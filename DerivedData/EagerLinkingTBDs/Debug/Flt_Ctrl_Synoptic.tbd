@@ -1,0 +1,36 @@
+{
+  "main_library": {
+    "exported_symbols": [
+      {
+        "text": {
+          "global": [
+            "_XPluginStop",
+            "_XPluginStart",
+            "_XPluginDisable",
+            "_XPluginEnable",
+            "_XPluginReceiveMessage"
+          ]
+        }
+      }
+    ],
+    "flags": [
+      {
+        "attributes": [
+          "not_app_extension_safe"
+        ]
+      }
+    ],
+    "install_names": [
+      {
+        "name": "/usr/local/lib/Flt_Ctrl_Synoptic.xpl"
+      }
+    ],
+    "target_info": [
+      {
+        "min_deployment": "10.14.6",
+        "target": "x86_64-macos"
+      }
+    ]
+  },
+  "tapi_tbd_version": 5
+}

@@ -1,0 +1,55 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "631a859740739cbdb0b6aa2152907b4471ac64848fdd0640fa2acf3c562fd683"
+    }
+  ],
+  "containerPath" : "/Users/jordanpalmer/Applications/VS_Code_C++/X-Plane-VS/Flt_Ctrl_Synoptic/Flt_Ctrl_Synoptic.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx14.2",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "x86_64h",
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/jordanpalmer/Applications/VS_Code_C++/X-Plane-VS/Flt_Ctrl_Synoptic/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/jordanpalmer/Applications/VS_Code_C++/X-Plane-VS/Flt_Ctrl_Synoptic/DerivedData/Flt_Ctrl_Synoptic/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/jordanpalmer/Applications/VS_Code_C++/X-Plane-VS/Flt_Ctrl_Synoptic/DerivedData/Flt_Ctrl_Synoptic/Index.noindex/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

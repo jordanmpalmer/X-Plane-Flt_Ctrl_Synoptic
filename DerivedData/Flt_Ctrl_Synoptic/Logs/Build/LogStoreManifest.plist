@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>1511D5F9-1E8D-4709-B99D-53C261737B20</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>1511D5F9-1E8D-4709-B99D-53C261737B20.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Flt_Ctrl_Synoptic project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Flt_Ctrl_Synoptic</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Flt_Ctrl_Synoptic</string>
+			<key>timeStartedRecording</key>
+			<real>725719722.77320898</real>
+			<key>timeStoppedRecording</key>
+			<real>725719725.81438506</real>
+			<key>title</key>
+			<string>Build Flt_Ctrl_Synoptic</string>
+			<key>uniqueIdentifier</key>
+			<string>1511D5F9-1E8D-4709-B99D-53C261737B20</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
