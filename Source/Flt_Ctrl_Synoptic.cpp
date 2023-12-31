@@ -20,9 +20,7 @@
 #include <string.h>
 #include <math.h>
 
-#define MSG_ADD_DATAREF 0x01000000           //  Add dataref to DRE message
-
-// reference for dataref
+// reference for datarefs
 XPLMDataRef aileron1_deg_dataref = NULL;
 XPLMDataRef aileron2_deg_dataref = NULL;
 XPLMDataRef elevator1_deg_dataref = NULL;
@@ -31,8 +29,7 @@ XPLMDataRef rudder1_deg_dataref = NULL;
 XPLMDataRef rudder2_deg_dataref = NULL;
 
 
-
-// give dataref a variable
+// give datarefs a variable
 int     aileron1_deg;
 int     aileron2_deg;
 int     elevator1_deg;

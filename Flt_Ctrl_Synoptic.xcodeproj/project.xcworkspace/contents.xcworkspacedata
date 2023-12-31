@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/jordanpalmer/Applications/VS_Code_C++/X-Plane-Dataref-and-Command/Flt_Ctrl_Synoptic.xcodeproj">
+      location = "self:/Users/jordanpalmer/Applications/VS_Code_C++/X-Plane/Flt_Ctrl_Synoptic/Flt_Ctrl_Synoptic.xcodeproj">
    </FileRef>
 </Workspace>

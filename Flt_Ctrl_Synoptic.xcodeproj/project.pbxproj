@@ -32,13 +32,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C60018DF2B40DE670054556B /* Flt_Ctrl_Synoptic.xpl */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = Flt_Ctrl_Synoptic.xpl; sourceTree = BUILT_PRODUCTS_DIR; };
 		C67B05462B365C69007F9576 /* SDK */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SDK; sourceTree = "<group>"; };
 		C67B05472B365C6F007F9576 /* Flt_Ctrl_Synoptic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Flt_Ctrl_Synoptic.cpp; sourceTree = "<group>"; };
 		C67B054B2B365C96007F9576 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		C67B054D2B365CC2007F9576 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		C67B054F2B365CD4007F9576 /* XPLM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XPLM.framework; path = SDK/Libraries/Mac/XPLM.framework; sourceTree = "<group>"; };
 		C67B05532B365CE0007F9576 /* XPWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XPWidgets.framework; path = SDK/Libraries/Mac/XPWidgets.framework; sourceTree = "<group>"; };
-		C6CE8C8E2B40B02C00B0948D /* Flt_Ctrl_Synoptic.xpl */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; name = Flt_Ctrl_Synoptic.xpl; path = "/Users/jordanpalmer/Applications/VS_Code_C++/X-Plane-Dataref-and-Command/build/Debug/Flt_Ctrl_Synoptic.xpl"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +62,7 @@
 				C67B05492B365C7D007F9576 /* Source */,
 				C67B05462B365C69007F9576 /* SDK */,
 				C67B054A2B365C96007F9576 /* Frameworks */,
+				C60018DF2B40DE670054556B /* Flt_Ctrl_Synoptic.xpl */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,7 +113,7 @@
 			);
 			name = Flt_Ctrl_Synoptic;
 			productName = "Hello-World-SDK-3";
-			productReference = C6CE8C8E2B40B02C00B0948D /* Flt_Ctrl_Synoptic.xpl */;
+			productReference = C60018DF2B40DE670054556B /* Flt_Ctrl_Synoptic.xpl */;
 			productType = "com.apple.product-type.library.dynamic";
 		};
 /* End PBXNativeTarget section */
@@ -297,6 +298,7 @@
 					"$(XPSDK_ROOT)/CHeaders/XPLM",
 				);
 				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				OBJROOT = DerivedData;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-Wl,-exported_symbol",
@@ -311,7 +313,9 @@
 					"-Wl,_XPluginStop",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SHARED_PRECOMPS_DIR = "$(OBJROOT)/SharedPrecompiledHeaders";
 				SKIP_INSTALL = YES;
+				SYMROOT = Products;
 				XPSDK_ROOT = SDK;
 			};
 			name = Debug;
@@ -323,6 +327,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_TESTABILITY = YES;
 				EXECUTABLE_EXTENSION = xpl;
 				FRAMEWORK_SEARCH_PATHS = "$(XPSDK_ROOT)/Libraries/Mac";
 				GCC_C_LANGUAGE_STANDARD = "compiler-default";
@@ -339,6 +344,7 @@
 					"$(XPSDK_ROOT)/CHeaders/XPLM",
 				);
 				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				OBJROOT = DerivedData;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-Wl,-exported_symbol",
@@ -353,7 +359,9 @@
 					"-Wl,_XPluginStop",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SHARED_PRECOMPS_DIR = "$(OBJROOT)/SharedPrecompiledHeaders";
 				SKIP_INSTALL = YES;
+				SYMROOT = Products;
 				XPSDK_ROOT = SDK;
 			};
 			name = Release;
